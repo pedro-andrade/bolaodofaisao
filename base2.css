@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    font-size: 12px;
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+.control-group.required label {
+	font-weight: bold;
+}
+
+.formLabel {
+	font-weight: bold;
+}
+
+.toCenter { 
+	text-align: center; 
+}
+
+.table-bordered th.toRight { 
+	text-align: right; 
+}
+
+.table-bordered th.toCenter { 
+	text-align: center; 
+}
+
+.table-bordered td.toRight { 
+	text-align: right; 
+}
+
+.table-bordered td.toCenter { 
+	text-align: center; 
+}
+
+
+/*to be deleted*/
+
+tableB {
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0
+}
+
+.tableB {
+margin-bottom: 20px
+}
+.tableB th,.tableB td {
+padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #ddd
+}
+.tableB th {
+font-weight: bold
+}
+.tableB thead th {
+vertical-align: bottom
+}
+.tableB caption+thead tr:first-child th,.tableB caption+thead tr:first-child td,.tableB colgroup+thead tr:first-child th,.tableB colgroup+thead tr:first-child td,.tableB thead:first-child tr:first-child th,
+.tableB thead:first-child tr:first-child td {
+border-top: 0
+}
+.tableB tbody+tbody {
+border-top: 2px solid #ddd
+}
+
+
+.h3-wrap {
+  width: 988px;
+  height: 50px;
+  display: table-cell;
+  border-bottom: solid 1px #474747;
+}
+
+
+/*to be deleted*/
+
+.dl-horizontal dt {
+	width: auto;
+	white-space: inherit;
+}
+         
+.dl-horizontal dd:before {
+	content: "";
+	margin-left: 5px;
+}
+
+.dl-horizontal dd {
+	/* should be the same as line-height */
+	min-height: 20px;
+	margin-left: 0px;
+	margin-bottom: 0.5em;
+}
+
+.dl-horizontal dd:after {
+	/* clearfix */
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#state_filter span {
+	cursor: pointer;
+}
+
+#state_filter span.selected {
+	font-size: 1.2em;
+}
